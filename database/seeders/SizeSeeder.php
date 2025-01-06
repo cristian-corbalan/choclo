@@ -21,6 +21,13 @@ class SizeSeeder extends Seeder
             ['name' => 'L', 'created_at' => now(), 'updated_at' => now()],
             ['name' => 'XL', 'created_at' => now(), 'updated_at' => now()],
             ['name' => 'XXL', 'created_at' => now(), 'updated_at' => now()],
+            ['name' => '34', 'created_at' => now(), 'updated_at' => now()],
+            ['name' => '36', 'created_at' => now(), 'updated_at' => now()],
+            ['name' => '38', 'created_at' => now(), 'updated_at' => now()],
+            ['name' => '40', 'created_at' => now(), 'updated_at' => now()],
+            ['name' => '42', 'created_at' => now(), 'updated_at' => now()],
+            ['name' => '44', 'created_at' => now(), 'updated_at' => now()],
+            ['name' => '46', 'created_at' => now(), 'updated_at' => now()],
         ]);
     }
 }
