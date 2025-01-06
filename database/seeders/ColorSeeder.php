@@ -20,6 +20,8 @@ class ColorSeeder extends Seeder
             ['name' => 'Rojo', 'created_at' => now(), 'updated_at' => now()],
             ['name' => 'Verde', 'created_at' => now(), 'updated_at' => now()],
             ['name' => 'Azul', 'created_at' => now(), 'updated_at' => now()],
+            ['name' => 'Chicle', 'created_at' => now(), 'updated_at' => now()],
+            ['name' => 'Chocolate', 'created_at' => now(), 'updated_at' => now()],
         ]);
     }
 }
