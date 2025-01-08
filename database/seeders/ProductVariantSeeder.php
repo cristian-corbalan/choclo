@@ -6,16 +6,16 @@ use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 
-class StockSeeder extends Seeder
+class ProductVariantSeeder extends Seeder
 {
     /**
      * Run the database seeds.
      */
     public function run(): void
     {
-        DB::table('stocks')->insert([
+        DB::table('product_variants')->insert([
             [
-                'quantity' => 5,
+                'stock' => 5,
                 'product_id' => 1,
                 'color_id' => 1,
                 'size_id' => 8,
@@ -23,7 +23,7 @@ class StockSeeder extends Seeder
                 'updated_at' => now(),
             ],
             [
-                'quantity' => 5,
+                'stock' => 5,
                 'product_id' => 2,
                 'color_id' => 3,
                 'size_id' => 3,
@@ -31,7 +31,7 @@ class StockSeeder extends Seeder
                 'updated_at' => now(),
             ],
             [
-                'quantity' => 2,
+                'stock' => 2,
                 'product_id' => 3,
                 'color_id' => 2,
                 'size_id' => 4,
